@@ -6,6 +6,6 @@ server.use(express.json());
 server.use(postRouter);
 
 
-server.listen(6000, () => {
+server.listen(5000, () => {
   console.log("Server is running on http://localhost:5000");
 });
